@@ -1,19 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE-edge">
-    <meta name="viewport" content="width-device-width, initial-scale-1.0">
-    <meta name="keywords" content="template, html, css, image, paragraph, setup">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="contact, mythos cradle, sanctuary, email, communication">
     <meta name="author" content="Lauhan Winterbach 262067">
-    
-    <title>Template</title>
-
+    <title>The Mythos Cradle | Contact Us</title>
+    <!-- Phosphor Icons for SVG UI -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
     <link rel="stylesheet" href="../css/main.css">
-
 </head>
+
 <body>
 
+    <!-- Navigation -->
+    <header class="navbar-wrapper">
+        <div class="container">
+            <nav class="navbar">
+                <a href="../index.html" class="nav-brand">
+                    <img src="../assets/img/logo.png" alt="The Mythos Cradle Logo">
+                </a>
+                <div class="nav-links">
+                    <a href="../index.html">Home</a>
+                    <a href="adopt.html">Adopt</a>
+                    <a href="contact.html" class="active">Contact</a>
+                </div>
+                <div class="nav-actions">
+                    <div class="search-box">
+                        <i class="ph ph-magnifying-glass"></i>
+                        <input type="text" placeholder="Search">
+                    </div>
+                    <div class="cart-icon">
+                        <i class="ph ph-shopping-bag"></i>
+                        <span class="cart-badge">2</span>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-contact" style="background-image: url('../assets/img/contactHeader.png');">
+            <div class="container hero-content text-center">
+                <div class="contact-hero-text">
+                    <h1 class="mythos-font" style="font-size: 5rem; color: var(--color-white); letter-spacing: 5px;">
+                        CONTACT US</h1>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="section-padding light-section">
+            <div class="container split-layout align-start">
+                <div class="contact-about">
+                    <h5 class="section-subtitle">ABOUT</h5>
+                    <h2 class="section-title text-dark">Mythos Cradle</h2>
+                    <p>Welcome to The Mythos Cradle, where we are dedicated to nurturing the next generation of
+                        legendary companions into loving homes. As a sanctuary and adoption agency, we specialize in
+                        connecting families with magical creatures, carefully matching each little legend to the
+                        caretakers who will best support their growth and well-being. From playful blue dragons to
+                        gentle forest spirits, every adoption is designed to foster wonder, curiosity, and
+                        companionship. With a commitment to ethical care, safety, and magical enrichment, we strive to
+                        create joyful experiences for both creatures and their new families. Join us as we celebrate the
+                        enchantment of mythology and turn legendary beings into cherished members of your household.</p>
+                </div>
+                <div class="image-wrapper">
+                    <img src="../assets/img/contactImage 1.png" alt="Baby Dragon">
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Form & Info Section -->
+        <section class="section-padding light-section pt-0">
+            <div class="container split-layout align-start">
+                <!-- Left Sidebar -->
+                <div class="contact-sidebar">
+                    <div class="contact-info-block">
+                        <h5 class="section-subtitle">CONTACT US THROUGH OUR</h5>
+                        <h2 class="section-title text-dark">SOCIAL MEDIA PAGES</h2>
+                        <div class="social-links-large">
+                            <a href="#"><img src="../assets/img/sm1.png" alt="Facebook"></a>
+                            <a href="#"><img src="../assets/img/sm2.png" alt="TikTok"></a>
+                            <a href="#"><img src="../assets/img/sm3.png" alt="Instagram"></a>
+                            <a href="#"><img src="../assets/img/sm4.png" alt="X"></a>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-block mt-5">
+                        <h5 class="section-subtitle">OR VISIT US AT OUR</h5>
+                        <h2 class="section-title text-dark">PHYSICAL LOCATION</h2>
+                        <div class="map-wrapper">
+                            <!-- Map Placeholder iframe -->
+                            <iframe
+                                src="https://maps.google.com/maps?q=Open%20Window%20Stellenbosch&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                                width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Form Wrapper -->
+                <div class="contact-form-wrapper" style="background-image: url('../assets/img/formBackground.png');">
+                    <div class="form-container">
+                        <h2 class="form-title">SEND US A MESSAGE</h2>
+                        <form action="#" method="POST" class="contact-form">
+                            <div class="form-group">
+                                <label>Your name</label>
+                                <input type="text" placeholder="Abc">
+                            </div>
+                            <div class="form-group">
+                                <label>Email address</label>
+                                <input type="email" placeholder="Abc@def.com">
+                            </div>
+                            <div class="form-group">
+                                <label>Subject</label>
+                                <input type="text" placeholder="This is an optional">
+                            </div>
+                            <div class="form-group">
+                                <label>Message</label>
+                                <textarea placeholder="Hi! I'd like to ask about..." rows="5"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary form-submit">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <img src="../assets/img/logo.png" alt="The Mythos Cradle Logo">
+                    <p>Where every legendary creature<br>finds a loving home.+</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="adopt.html">Adopt</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Social Media Links</h4>
+                    <div class="social-icons">
+                        <a href="#"><img src="../assets/img/sm1.png" alt="Facebook"></a>
+                        <a href="#"><img src="../assets/img/sm2.png" alt="TikTok"></a>
+                        <a href="#"><img src="../assets/img/sm3.png" alt="Instagram"></a>
+                        <a href="#"><img src="../assets/img/sm4.png" alt="X"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="copyright">
+                    All Rights Reserved @ Open Window 2024
+                </div>
+                <div class="footer-legal">
+                    <a href="#">Terms & Conditions</a>
+                    <a href="#">Privacy & Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 </body>
+
 </html>
