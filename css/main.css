@@ -8,13 +8,10 @@
 }
 
 :root {
-    /* Colors */
     --color-primary-dark: #002d68;
-    /* The deep blue for sections */
     --color-primary: #002d68;
     --color-accent-cyan: #15d5f5;
     --color-accent-orange: #e9ad1c;
-    /* For the star ratings / logo accent */
     --color-text-main: #000000;
     --color-text-light: #555555;
     --color-heading: #000000;
@@ -22,19 +19,16 @@
     --color-bg-light: #ffffff;
     --color-bg-alt: #f8f9fa;
 
-    /* Typography */
     --font-heading: 'Poppins', sans-serif;
     --font-heading-alt: 'Metamorphous', serif;
     --font-body: 'Poppins', sans-serif;
     --font-custom: 'Mythology Of Egypt', cursive;
 
-    /* Spacing */
     --spacing-sm: 0.5rem;
     --spacing-md: 1rem;
     --spacing-lg: 2rem;
     --spacing-xl: 4rem;
 
-    /* Shadows & Border Radius */
     --shadow-soft: 0 10px 30px rgba(0, 0, 0, 0.08);
     --shadow-glass: 0 8px 32px rgba(0, 0, 0, 0.1);
     --border-radius-sm: 8px;
@@ -43,7 +37,6 @@
     --border-radius-pill: 50px;
 }
 
-/* Base Resets */
 *,
 *::before,
 *::after {
@@ -93,7 +86,6 @@ img {
     display: block;
 }
 
-/* Utilities */
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -136,7 +128,6 @@ img {
     background-color: #e08b29;
 }
 
-/* Navigation Bar */
 .navbar-wrapper {
     position: absolute;
     top: 20px;
@@ -149,10 +140,8 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: rgba(255, 255, 255, 0.4);
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
-    border-radius: var(--border-radius-pill);
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 25px;
     padding: 10px 30px;
     box-shadow: var(--shadow-glass);
 }
@@ -243,7 +232,6 @@ img {
     justify-content: center;
 }
 
-/* Footer Section */
 .site-footer {
     padding: var(--spacing-xl) 0 20px;
     background-color: var(--color-white);
@@ -325,7 +313,6 @@ img {
     color: var(--color-accent-cyan);
 }
 
-/* Section specific baseline classes */
 .section-padding {
     padding: var(--spacing-xl) 0;
 }
@@ -347,7 +334,6 @@ img {
 }
 
 
-/* Utilities spacing */
 .mt-4 {
     margin-top: 1.5rem;
 }
@@ -360,7 +346,6 @@ img {
     margin-bottom: 3rem;
 }
 
-/* typography modifiers */
 .text-light,
 .text-light h2,
 .text-light p {
@@ -371,7 +356,6 @@ img {
     color: var(--color-primary-dark);
 }
 
-/* Home Hero Section */
 .hero-home {
     height: 100vh;
     min-height: 700px;
@@ -412,7 +396,6 @@ img {
     letter-spacing: 1px;
 }
 
-/* Home Sections Layout */
 .home-section {
     padding: var(--spacing-xl) 0;
 }
@@ -481,7 +464,6 @@ img {
     box-shadow: var(--shadow-soft);
 }
 
-/* Success Card Grid */
 .success-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -514,7 +496,6 @@ img {
     opacity: 0.8;
 }
 
-/* Adopt Page specific styles */
 .hero-adopt {
     height: 400px;
     background-size: cover;
@@ -739,7 +720,6 @@ img {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-/* Contact Page Specific Styles */
 .hero-contact {
     height: 400px;
     background-size: cover;
