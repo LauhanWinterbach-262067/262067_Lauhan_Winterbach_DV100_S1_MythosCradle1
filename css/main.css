@@ -506,6 +506,26 @@ img {
     justify-content: center;
 }
 
+.hero-adopt::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    z-index: 1;
+}
+
+.hero-adopt .container,
+.hero-contact .container {
+    position: relative;
+    z-index: 2;
+}
+
+.hero-adopt .hero-content,
+.hero-contact .hero-content {
+    justify-content: center;
+}
+
 .adopt-hero-text {
     margin-top: 5rem;
 }
