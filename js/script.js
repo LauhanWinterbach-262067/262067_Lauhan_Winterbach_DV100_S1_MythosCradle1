@@ -165,9 +165,6 @@ document.addEventListener("DOMContentLoaded", () => {
     const finishAdoptionBtn = document.getElementById('finishAdoptionBtn');
     if (finishAdoptionBtn) {
         finishAdoptionBtn.addEventListener('click', () => {
-            // clear cart? (Optional, let's keep it realistic to a checkout)
-            // cart = [];
-            // saveCart();
             window.location.href = basePath + 'index.html';
         });
     }
@@ -201,7 +198,7 @@ document.addEventListener("DOMContentLoaded", () => {
         // Assuming there are multiple images available for the slider
         const images = [
             'assets/img/imageSlider1.png',
-            'assets/img/adopt1.png', // Fallbacks since we only see imageSlider1.png in folder structure
+            'assets/img/adopt1.png',
             'assets/img/adopt2.png',
             'assets/img/adopt3.png'
         ];
